@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #23272a;
+}
+.container{
+    width:75%;
+    margin:0 auto;
+}
+.clearfix:after{
+    content: '';
+    display:table;
+    clear: both;
+}
+.btn {
+    display: inline-block;
+    border-radius: 40px;
+    padding: 16px 32px;
+    background-color: #8ea1e1;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* header */
+header{
+    height:80px;
+    line-height: 60px;
+    background-color: rgba(49,97,224,255);
+}
+nav .logo, nav ul{
+    float:left;
+}
+nav .logo img{
+    vertical-align: middle;
+}
+nav .logo{
+    width:15%;
+    text-align: center;
+}
+nav ul{
+    width: 70%;
+    text-align: center;    
+}
+nav ul li{
+    display: inline-block;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0 20px;
+}
+#accedi{
+    float:right;
+    width: 15%;
+    text-align: center;
+}
+#accedi .btn{
+    padding: 10px 14px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #23272a;
+    display: inline;
+}
+
+/* main */
+
+/* Prima sezione */
+#jumbotron{
+    min-height: 546px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+#jumbotron .container{
+    max-width: 780px;
+    text-align: center;
+    color: #ffffff;
+    padding-top:100px;
+}
+#jumbotron .container h1{
+    font-size: 55px;
+    padding-bottom: 50px;
+}
+#jumbotron .container p{
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+.white-black{
+    background-color: white;
+    color: black;
+}
+.black-white{
+    background-color: hsl(210deg 8% 15%);
+    color: white;
+}
+
+/* Seconda e Quarta sezione */
+
+.sezione2-4 .container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 8% 0;
+}
+
+.image1{
+    width: 55%;
+    float: left;
+}
+
+.image1 img{
+    width: 100%;
+}
+
+.testo1{
+    float: right;
+    width: 30%;
+    padding-top: 2.5%;
+}
+
+.testo1 h2{
+    font-size: 55px;
+}
+
+.testo1 p{
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.onda1{
+    opacity: 6%;
+    margin-bottom: 0px;
+    display: block;
+    font-size: 0;
+}
+
+/* Terza sezione */
+.sezione3{
+    background-color: #f0f0f0;
+}
+
+.sezione3 .container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 8% 0;
+}
+
+.image2{
+    width: 55%;
+    float: right;
+}
+
+.image2 img{
+    width: 100%;
+}
+
+.testo2{
+    float: left;
+    width: 30%;
+    padding-top: 2.5%;
+}
+
+.testo2 h2{
+    font-size: 55px;
+}
+
+.testo2 p{
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.onda2{
+    opacity: 6%;
+    margin-bottom: 0;
+    display: block;
+    transform: rotate(180deg);
+    font-size: 0;
+}
+
+/* Quinta sezione */
+
+.sezione5{
+    background-color: #f0f0f0;
+}
+
+.sezione5 .container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 8% 0;
+}
+
+.testo3, .testo4{
+    text-align: center;
+}
+
+.box{
+    width: 100%;
+}
+
+.big{
+    width: 100%;
+}
+
+.testo3 h2{
+    font-size: 55px;
+}
+
+.testo3 p{
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.testo4{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.testo4 h3{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-size: 35px;
+    padding-top: 10%;
+    margin-bottom: 8%;
+}
+
+
